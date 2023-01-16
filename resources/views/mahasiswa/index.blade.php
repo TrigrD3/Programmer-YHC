@@ -11,7 +11,7 @@
   <div class="container container2">
     <div class="row overflow-auto">
       <div class="col">
-          <table class="table table-hover">
+          <table id="table_mahasiswa" class="table table-hover display">
               <thead>
                   <tr class="table-primary border">
                       <th scope="col">NAMA</th>
@@ -64,12 +64,6 @@
           </table>
       </div>
   </div>
-  <nav aria-label="Page navigation example">
-    <ul class="pagination justify-content-center">
-      <li>{{ $mahasiswa->links() }}</li>
-    </ul>
-  </nav>
-
   </div>
 
   <div class="row credit">
