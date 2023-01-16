@@ -1,6 +1,8 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +22,10 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/mahasiswa/index', [App\Http\Controllers\MahasiswaController::class, 'index'])-> name('mahasiswa.index');
+route::get('/mahasiswa/create', [App\Http\Controllers\MahasiswaController::class, 'create'])->name('mahasiswa.create');
+route::post('/mahasiswa', [App\Http\Controllers\MahasiswaController::class, 'store'])->name('mahasiswa.store');
+route::get('/mahasiswa/{id}', [App\Http\Controllers\MahasiswaController::class, 'show'])->name('mahasiswa.show');
+route::get('/mahasiswa/{id}/edit', [App\Http\Controllers\MahasiswaController::class, 'edit'])->name('mahasiswa.edit');
+route::put('/mahasiswa/{id}', [App\Http\Controllers\MahasiswaController::class, 'update'])->name('mahasiswa.update');
+route::delete('/mahasiswa/{id}', [App\Http\Controllers\MahasiswaController::class, 'destroy'])->name('mahasiswa.delete');
