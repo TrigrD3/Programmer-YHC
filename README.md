@@ -3,6 +3,10 @@ Nama: Muhammad Jatmika Aryaputra
 
 Instansi: Universitas Lambung Mangkurat
 
+email: arya66151@gmail.com
+
+linkedin: https://www.linkedin.com/in/aryaputra132/
+
 Semester: 8
 
 Domisili: Banjarmasin
@@ -29,5 +33,7 @@ Run <pre>php artisan serve<code></code></pre> to start the built-in PHP web serv
 I'm using MySQL database. You can change the database in .env file if there is no .env file, just make a new one and copy the content from .env.example file.
 
 db name: programmer-yhc
+
 username: root
+
 password: root
