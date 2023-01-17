@@ -37,3 +37,45 @@ db name: programmer-yhc
 username: root
 
 password: root
+
+
+
+<h1> Tampilan login</h1>
+
+![Screenshot of my app](https://github.com/TrigrD3/Programmer-YHC/blob/4865a7b2ac3ba28b4551ce1ac9a788b02c17084a/screenshot/login.png)
+
+![Screenshot of my app](https://github.com/TrigrD3/Programmer-YHC/blob/4865a7b2ac3ba28b4551ce1ac9a788b02c17084a/screenshot/login%20error.png)
+
+<h1>Tampilan Register</h1>
+
+![Screenshot of my app](https://github.com/TrigrD3/Programmer-YHC/blob/4865a7b2ac3ba28b4551ce1ac9a788b02c17084a/screenshot/register.png)
+
+<h1>Tampilan Home</h1>
+
+![Screenshot of my app](https://github.com/TrigrD3/Programmer-YHC/blob/4865a7b2ac3ba28b4551ce1ac9a788b02c17084a/screenshot/home.png)
+
+<p>pada halaman ini terdapat sebuah table yang menampung data mahasiswa seperti nama,nim,semester,prodi,angkatan dan kelas</p>
+
+<p>terdapat 3 buah tombol yang bisa digunakan pada table, yang pertama yaitu tombol detail mahasiswa, kemudian ada tombol edit mahasiswa, dan tombol hapus data</p>
+
+<p>data pada table juga bisa diurutkan berdasarkan headernya</p>
+
+<p>di bawah table ada tombol add mahasiswa yang bisa digunakan untuk menambahkan data mahasiswa baru</p>
+
+<p>di bagian atas table juga terdapat kolom search yang bisa digunakan untuk melakukan pencarian data</p>
+
+![Screenshot of my app](https://github.com/TrigrD3/Programmer-YHC/blob/4865a7b2ac3ba28b4551ce1ac9a788b02c17084a/screenshot/search%20nama.png)
+
+![Screenshot of my app](https://github.com/TrigrD3/Programmer-YHC/blob/4865a7b2ac3ba28b4551ce1ac9a788b02c17084a/screenshot/search%20prodi.png)
+
+<h1>Halaman Add Mahasiswa</h1>
+
+![Screenshot of my app](https://github.com/TrigrD3/Programmer-YHC/blob/4865a7b2ac3ba28b4551ce1ac9a788b02c17084a/screenshot/create.png)
+
+<h1>Halaman Edit</h1>
+
+![Screenshot of my app](https://github.com/TrigrD3/Programmer-YHC/blob/4865a7b2ac3ba28b4551ce1ac9a788b02c17084a/screenshot/edit.png)
+
+<h1>Halaman Detail Mahasiswa</h1>
+
+![Screenshot of my app](https://github.com/TrigrD3/Programmer-YHC/blob/4865a7b2ac3ba28b4551ce1ac9a788b02c17084a/screenshot/detail%20mahasiswa.png)
